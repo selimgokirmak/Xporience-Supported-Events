@@ -9,6 +9,11 @@ Ideal for **B2B lead generation, market research, event networking, and competit
 Supports multiple Xporience trade fair websites with a consistent HTML structure.
 
 
+## 🔎 Testing Exhibitor List URLs for FREE
+
+Use [**Exhibitor List Scrapers Router & URL Tester**](https://console.apify.com/actors/PQ2HmPYNoLLjOR3Ew/input) actor to test your exhibitor list URLs **for FREE** and see which scraper can process them.
+
+
 ## 👇 Check My Other Exhibitor List Scrapers
 
 - [Koelnmesse Exhibitor List Scraper](https://apify.com/skython/koelnmesse-exhibitor-list-scraper)
@@ -31,8 +36,6 @@ This scraper is designed to extract data from exhibitor directories with the sam
 - An example event website URL: https://exhibitors.saudiwoodexpo.com/saudi-wood-expo-2025/Exhibitor
 
 ✅ Exhibitor listing page format should be the same as the sample websites below.
-
-💡 **If you are unsure whether your target event website is supported,** you can run a test with the exhibitor listing page URL — if no results are returned, the website is not compatible.
 
 
 ## 🌐 Supported Xporience Events (Exhibitor Lists)
