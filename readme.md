@@ -11,7 +11,9 @@ Supports multiple Xporience trade fair websites with a consistent HTML structure
 
 ## 🔎 Testing Exhibitor List URLs for FREE
 
-Use [**Exhibitor List Scrapers Router & URL Tester**](https://console.apify.com/actors/PQ2HmPYNoLLjOR3Ew/input) actor to test your exhibitor list URLs **for FREE** and see which scraper can process them.
+- Since I have multiple exhibitor list scraper actors for different types of trade event websites, it might be hard to find the correct actor for your exhibitor list URL.
+
+- Use [**Exhibitor List Scrapers Router & URL Tester**](https://console.apify.com/actors/PQ2HmPYNoLLjOR3Ew/input) actor to test your exhibitor list URLs **for FREE** and see which scraper can process them.
 
 
 ## 👇 Check My Other Exhibitor List Scrapers
@@ -28,18 +30,20 @@ Use [**Exhibitor List Scrapers Router & URL Tester**](https://console.apify.com/
 
 - [Messe Muenchen Exhibitor List Scraper](https://apify.com/skython/messe-muenchen-exhibitor-list-scraper)
 
+- [Xporience Exhibitor List Scraper V2](https://apify.com/skython/xporience-exhibitor-list-scraper-2)
+
+- [Nuernberg Messe Exhibitor List Scraper](https://apify.com/skython/nuernberg-messe-exhibitor-list-scraper)
+
+- [GSMA MWC Exhibitor List Scraper](https://apify.com/skython/gsma-mwc-exhibitor-list-scraper)
+
 
 ## 🎯 Supported Website Structure
 
-This scraper is designed to extract data from exhibitor directories with the same HTML structure as the supported Xporience exhibitor lists.
+- This scraper is designed to extract data from exhibitor directories with the same HTML structure as the supported Xporience exhibitor lists below.
 
-### ❓ How to identify a supported website:
+- Take a look at some of the event websites from the below list. Your event website URL might be in that list.
 
-✅ Exhibitor listing page URL usually starts with `https://exhibitors.` ends with `/Exhibitor`.
-
-- An example event website URL: https://exhibitors.saudiwoodexpo.com/saudi-wood-expo-2025/Exhibitor
-
-✅ Exhibitor listing page format should be the same as the sample websites below.
+- If you are not sure about if this actor is capable of scraping your event URL, test it with [**Exhibitor List Scrapers Router & URL Tester**](https://console.apify.com/actors/PQ2HmPYNoLLjOR3Ew/input) actor.
 
 
 ## 🌐 Supported Xporience Events (Exhibitor Lists)
@@ -85,3 +89,43 @@ This scraper is designed to extract data from exhibitor directories with the sam
 - [SAUDI WOOD EXPO 2025 Exhibitor List](https://exhibitors.saudiwoodexpo.com/saudi-wood-expo-2025/Exhibitor)
 
 - [Stationery And Paper Expo 2025 Exhibitor List](https://exhibitors.stationerypaperexpoksa.com/the-stationery-paper-expo-saudi-arabia-2025/Exhibitor)
+
+- [Big 5 Construct Kenya 2024 Exhibitor List](https://exhibitors.big5constructkenya.com/the-big-5-construct-kenya-2024/Exhibitor)
+
+- [HVAC R EXPO Saudi 2025 Exhibitor List](https://exhibitors.big5constructsaudi.com/hvac-r-expo-saudi-2025/Exhibitor)
+
+- [Windows, Doors & Facades Saudi 2025 Exhibitor List](https://exhibitors.big5constructsaudi.com/windows--doors---facades-saudi-2025/Exhibitor)
+
+- [Marble and Stone Saudi 2025 Exhibitor List](https://exhibitors.big5constructsaudi.com/marble-and-stone-saudi-2025/Exhibitor)
+
+- [Saudi FM and Clean 2025 Exhibitor List](https://exhibitors.big5constructsaudi.com/saudi-fm-and-clean-2025/Exhibitor)
+
+- [Middle East Coatings Show 2024 Exhibitor List](https://exhibitors.middleeastcoatingsshow.com/middle-east-coatings-show-2024/Exhibitor)
+
+- [Saudi Signage & Labelling Expo 2025 Exhibitor List](https://exhibitors.saudisignageexpo.com/saudi-signage-labelling-expo-2025/Exhibitor)
+
+- [Saudi Warehousing & Logistics Expo 2025 Exhibitor List](https://exhibitors.saudilogisticsexpo.com/saudi-warehousing-and-logistics-and-commercial-vehicle-show-2025/Exhibitor)
+
+- [WORKSPACE 2025 Exhibitor List](https://exhibitors.workspaceexhibition.com/workspace-2025/Exhibitor)
+
+- [The Hotel Show 2025 Exhibitor List](https://exhibitors.thehotelshow.com/the-hotelshow-dubai-2025/Exhibitor)
+
+- [WAMPEX West Africa 2025 Exhibitor List](https://exhibitors.wampexwestafrica.com/wampex-2025/Exhibitor)
+
+- [South Africa Infrastructure & Water Expo 2025 Exhibitor List](https://exhibitors.big5constructsouthafrica.com/south-africa-infrastructure-water-expo-2025/Exhibitor)
+
+- [The Big 5 Construct South Africa 2025 Exhibitor List](https://exhibitors.big5constructsouthafrica.com/the-big-5-construct-south-africa-2025-64/Exhibitor)
+
+- [Transport Evolution 2025 Exhibitor List](https://exhibitors.transportevolution.com/transport-evolution-african-forum-and-expo-2025/Exhibitor)
+
+- [FSB Sports Show Riyadh 2025 Exhibitor List](https://exhibitors.fsb-riyadh.com/fsb-sports-show-riyadh-2025/Exhibitor)
+
+- [International Hardware Fair Saudi Arabia 2025 Exhibitor List](https://exhibitors.fsb-riyadh.com/international-hardware-fair-saudi-arabia-2025/Exhibitor)
+
+- [Coatings For Africa 2024 Exhibitor List](https://exhibitors.coatingsforafrica.com/Coatings-for-Africa-2024/Exhibitor)
+
+- [Hotel and Hospitality Expo Saudi Arabia 2025 Exhibitor List](https://exhibitors.thehotelshowsaudiarabia.com/hotel-and-hospitality-expo-saudi-arabia-2025/Exhibitor)
+
+- [Smart Cities Expo 2025 Exhibitor List](https://exhibitors.smartcitiessaudiexpo.com/smart-cities-expo-2025/Exhibitor)
+
+- [HITEC Dubai 2025 Exhibitor List](https://exhibitors.thehotelshow.com/hitec-dubai-2025/Exhibitor)
