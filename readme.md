@@ -56,6 +56,10 @@ Supports multiple **Xporience** trade fair websites with a consistent HTML struc
 
 - [Deutsche Messe Exhibitor List Scraper](https://apify.com/skython/deutsche-messe-exhibitor-list-scraper)
 
+- [Newfront Exhibitor List Scraper](https://apify.com/skython/newfront-exhibitor-list-scraper)
+
+- [Goeshow Exhibitor List Scraper](https://apify.com/skython/goeshow-exhibitor-list-scraper)
+
 
 ## 🎯 Supported Website Structure
 
@@ -71,6 +75,8 @@ Supports multiple **Xporience** trade fair websites with a consistent HTML struc
 **Note:** *The following list includes Xporience exhibitor directory URLs that have been tested so far. Other Xporience or different events with the same website structure may also be supported.*
 
 ### 2026
+
+- [Make It In The Emirates 2026 Exhibitor List – exhibitors.miite.ae](https://exhibitors.miite.ae/make-it-in-the-emirates-2026/Exhibitors)
 
 - [Bharat Electricity Summit 2026 Exhibitor List – exhibitors.big5constructsaudi.com](https://exhibitors.bharatelectricitysummit.com/bharat-electricity-summit-2026/Exhibitor)
 
