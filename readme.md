@@ -1,67 +1,66 @@
 ## 🤖 [Xporience Exhibitor List Scraper](https://apify.com/skython/xporience-exhibitor-list-scraper)
 
-Simple web scraper for extracting exhibitor data from trade show exhibitor lists provided by **Xporience**. 
+Simple web scraper for extracting exhibitor data from trade show exhibitor lists provided by **Xporience**. Easily scrape company profiles including **company details, websites, social media links, product sectors**. 
 
-Easily scrape company profiles including **company details, websites, social media links, product sectors**. 
+Ideal for **B2B lead generation, market research, event networking, and competitive analysis**. Supports multiple **Xporience** exhibition websites with a consistent HTML structure.
 
-Ideal for **B2B lead generation, market research, event networking, and competitive analysis**. 
+> [Apify](https://apify.com/) is a cloud platform and marketplace for web scraping and automation tools.
 
-Supports multiple **Xporience** trade fair websites with a consistent HTML structure.
+---
 
+## Contents
 
-## 🔎 Testing Exhibitor List URLs for FREE
+- [Features](#features)
 
-- Since I have multiple exhibitor list scraper actors for different types of trade event websites, it might be hard to find the correct actor for your exhibitor list URL.
+- [Use Cases](#use-cases)
 
-- Use [**Exhibitor List Scrapers URL Tester**](https://apify.com/skython/exhibitor-list-scrapers-router) actor to test your exhibitor list URLs **for FREE** and see which scraper can process them.
+- [Supported Website Structure](#supported-website-structure)
 
+- [Supported Xporience Events (Exhibitor Lists)](#supported-xporience-events-exhibitor-lists)
 
-## 👇 Check My Other Exhibitor List Scrapers
+- [Testing Exhibitor List URLs](#testing-exhibitor-list-urls-for-free)
 
-- [Exhibitor List Scraper - All-In-One](https://apify.com/skython/exhibitor-list-scraper)
+- [Exhibitor List Scraper - All-In-One Version](#exhibitor-list-scraper---all-in-one-version)
 
-- [Koelnmesse Exhibitor List Scraper](https://apify.com/skython/koelnmesse-exhibitor-list-scraper)
+- [Data Fields](#data-fields)
 
-- [Messe Frankfurt Exhibitor List Scraper](https://apify.com/skython/messe-frankfurt-exhibitor-list-scraper)
+- [Example Output](#example-output)
 
-- [Map Your Show Exhibitor List Scraper](https://apify.com/skython/map-your-show-exhibitor-list-scraper)
+- [My Other Exhibitor List Scrapers](#my-other-exhibitor-list-scrapers)
 
-- [Messe Düsseldorf Exhibitor List Scraper](https://apify.com/skython/messe-duesseldorf-exhibitor-list-scraper)
+---
 
-- [Reed Expo Exhibitor List Scraper](https://apify.com/skython/reed-expo-exhibitor-list-scraper)
+## Features
 
-- [Messe München Exhibitor List Scraper](https://apify.com/skython/messe-muenchen-exhibitor-list-scraper)
+- Scrape all exhibitor profiles from supported Xporience event websites
 
-- [Xporience Exhibitor List Scraper V2](https://apify.com/skython/xporience-exhibitor-list-scraper-2)
+- Extract detailed data from every exhibitor profile page
 
-- [Nürnberg Messe Exhibitor List Scraper](https://apify.com/skython/nuernberg-messe-exhibitor-list-scraper)
+- Company primary information (country, email, website)
 
-- [GSMA MWC Exhibitor List Scraper](https://apify.com/skython/gsma-mwc-exhibitor-list-scraper)
+- Social media links (LinkedIn, Facebook, Instagram, Twitter, YouTube)
 
-- [Messe Berlin Exhibitor List Scraper](https://apify.com/skython/messe-berlin-exhibitor-list-scraper)
+- Two output formats (Single-Row & Multi-Row)
 
-- [AFAG Messe Exhibitor List Scraper](https://apify.com/skython/afag-messe-exhibitor-list-scraper)
+- Multi-Row format for Excel-friendly product sector filtering
 
-- [Messe Stuttgart Exhibitor List Scraper](https://apify.com/skython/messe-stuttgart-exhibitor-list-scraper)
+- Export to JSON, CSV, and Excel
 
-- [Messe Essen Exhibitor List Scraper](https://apify.com/skython/messe-essen-exhibitor-list-scraper)
+---
 
-- [Informa Markets Exhibitor List Scraper](https://apify.com/skython/informa-markets-exhibitor-list-scraper)
+## Use Cases
 
-- [Informa Markets Exhibitor List Scraper V2](https://apify.com/skython/informa-markets-exhibitor-list-scraper-2)
+- **B2B Lead Generation:** Build targeted contact lists for marketing and sales outreach. 
 
-- [Ungerboeck Exhibitor List Scraper](https://apify.com/skython/ungerboeck-exhibitor-list-scraper)
+- **Market Research:** Analyze exhibitors by product categories, brands, and sectors.  
 
-- [A2Z Events Exhibitor List Scraper](https://apify.com/skython/a2z-events-exhibitor-list-scraper)
+- **Event Networking:** Familiarize yourself with exhibitors before attending trade fairs.  
 
-- [Deutsche Messe Exhibitor List Scraper](https://apify.com/skython/deutsche-messe-exhibitor-list-scraper)
+- **Competitive Analysis:** Track competitor participation and product focus areas.
 
-- [Newfront Exhibitor List Scraper](https://apify.com/skython/newfront-exhibitor-list-scraper)
+---
 
-- [Goeshow Exhibitor List Scraper](https://apify.com/skython/goeshow-exhibitor-list-scraper)
-
-
-## 🎯 Supported Website Structure
+## Supported Website Structure
 
 - This scraper is designed to extract data from exhibitor directories with the same HTML structure as the supported Xporience exhibitor lists below.
 
@@ -69,10 +68,13 @@ Supports multiple **Xporience** trade fair websites with a consistent HTML struc
 
 - If you are not sure about if this actor is capable of scraping your event URL, test it with [**Exhibitor List Scrapers URL Tester**](https://apify.com/skython/exhibitor-list-scrapers-router) actor.
 
+---
 
-## 🌐 Supported Xporience Events (Exhibitor Lists)
+## Supported Xporience Events (Exhibitor Lists)
 
-**Note:** *The following list includes Xporience exhibitor directory URLs that have been tested so far. Other Xporience or different events with the same website structure may also be supported.*
+> The following partial list includes Xporience exhibitor directory URLs that have been tested so far. Other Xporience events or different events with the same website structure may also be supported.
+
+> Some event URLs may have been updated or canceled entirely; please check them before using.
 
 ### 2026
 
@@ -166,3 +168,158 @@ Supports multiple **Xporience** trade fair websites with a consistent HTML struc
 - [Smart Cities Expo 2025 Exhibitor List – exhibitors.smartcitiessaudiexpo.com](https://exhibitors.smartcitiessaudiexpo.com/smart-cities-expo-2025/Exhibitor)
 
 - [HITEC Dubai 2025 Exhibitor List – exhibitors.thehotelshow.com](https://exhibitors.thehotelshow.com/hitec-dubai-2025/Exhibitor)
+
+---
+
+## Testing Exhibitor List URLs for FREE
+
+- Since I have multiple exhibitor list scraper actors for different types of trade event websites, it might be hard to find the correct actor for your exhibitor list URL.
+
+- Use [**Exhibitor List Scrapers URL Tester**](https://apify.com/skython/exhibitor-list-scrapers-router) actor to test your exhibitor list URLs **for FREE** and see which scraper can process them.
+
+---
+
+## Exhibitor List Scraper - All-In-One Version
+
+- I also provide an **All-In-One** version that combines **my 30+ exhibitor list scrapers** into a single actor.
+
+- Instead of searching for the correct scraper for each event URL, simply provide the event URL and the actor automatically selects the appropriate scraper.
+
+- ➡️ [Exhibitor List Scraper - All-In-One](https://apify.com/skython/exhibitor-list-scraper)
+
+---
+
+## Data Fields
+
+<table>
+  <thead>
+    <tr>
+    <th><span style="font-size:14px;">Company</span></th>
+    <th><span style="font-size:14px;">Social</span></th>
+    <th><span style="font-size:14px;">Additional</span></th>
+    </tr>
+  </thead>
+    <tbody>
+        <tr>
+            <td>Profile URL</td>
+            <td>LinkedIn</td>
+            <td>Hall Stands</td>
+        </tr>
+        <tr>
+            <td>Company Name</td>
+            <td>Facebook</td>
+            <td>Product Sectors</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>Instagram</td>
+            <td>Brands</td>
+        </tr>
+        <tr>
+            <td>Website</td>
+            <td>Twitter / X</td>
+            <td>Description</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>YouTube</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+---
+
+## Example Output
+
+```json
+{
+  "___exhibitor_profile_url": "https://exhibitors.saudiwoodexpo.com/saudi-wood-expo-2025/Exhibitor/ExbDetails/Mzg1NTU=",
+  "__company_name": "Al Talah Board Manufacturing Company Ltd.",
+  "_company_country": "United Arab Emirates",
+  "_company_email": "marketing@eccgroup.ae",
+  "_company_website": "https://www.desertboard.ae",
+  "_hall_stands": "Stand No- 1B100",
+  "_social_url_linkedin": "https://www.linkedin.com/company/desertboard/",
+  "_social_url_facebook": "https://www.facebook.com/atb.desertboard",
+  "_social_url_instagram": "https://www.instagram.com/desertboard/",
+  "_social_url_twitter": "https://x.com/desertboard_ae",
+  "_social_url_youtube": "https://www.youtube.com/@DesertBoard",
+  "company_description": "DesertBoard is the manufacturer of the region’s most sustainable building material...",
+  "product_sectors": [
+    "Furniture accessories and components",
+    "hardwood and softwood",
+    "Wood composites",
+    "Wood windows and doors",
+    "Flooring and decking"
+  ]
+}
+```
+
+<br>
+
+---
+
+## My Other Exhibitor List Scrapers
+
+- [Exhibitor List Scraper - All-In-One](https://apify.com/skython/exhibitor-list-scraper)
+
+- [Koelnmesse Exhibitor List Scraper](https://apify.com/skython/koelnmesse-exhibitor-list-scraper)
+
+- [Messe Frankfurt Exhibitor List Scraper](https://apify.com/skython/messe-frankfurt-exhibitor-list-scraper)
+
+- [Map Your Show Exhibitor List Scraper](https://apify.com/skython/map-your-show-exhibitor-list-scraper)
+
+- [Messe Düsseldorf Exhibitor List Scraper](https://apify.com/skython/messe-duesseldorf-exhibitor-list-scraper)
+
+- [Reed Expo Exhibitor List Scraper](https://apify.com/skython/reed-expo-exhibitor-list-scraper)
+
+- [Messe München Exhibitor List Scraper](https://apify.com/skython/messe-muenchen-exhibitor-list-scraper)
+
+- [Xporience Exhibitor List Scraper V2](https://apify.com/skython/xporience-exhibitor-list-scraper-2)
+
+- [Nürnberg Messe Exhibitor List Scraper](https://apify.com/skython/nuernberg-messe-exhibitor-list-scraper)
+
+- [GSMA MWC Exhibitor List Scraper](https://apify.com/skython/gsma-mwc-exhibitor-list-scraper)
+
+- [Messe Berlin Exhibitor List Scraper](https://apify.com/skython/messe-berlin-exhibitor-list-scraper)
+
+- [AFAG Messe Exhibitor List Scraper](https://apify.com/skython/afag-messe-exhibitor-list-scraper)
+
+- [Messe Stuttgart Exhibitor List Scraper](https://apify.com/skython/messe-stuttgart-exhibitor-list-scraper)
+
+- [Messe Essen Exhibitor List Scraper](https://apify.com/skython/messe-essen-exhibitor-list-scraper)
+
+- [Informa Markets Exhibitor List Scraper](https://apify.com/skython/informa-markets-exhibitor-list-scraper)
+
+- [Informa Markets Exhibitor List Scraper V2](https://apify.com/skython/informa-markets-exhibitor-list-scraper-2)
+
+- [Ungerboeck Exhibitor List Scraper](https://apify.com/skython/ungerboeck-exhibitor-list-scraper)
+
+- [A2Z Events Exhibitor List Scraper](https://apify.com/skython/a2z-events-exhibitor-list-scraper)
+
+- [Deutsche Messe Exhibitor List Scraper](https://apify.com/skython/deutsche-messe-exhibitor-list-scraper)
+
+- [Newfront Exhibitor List Scraper](https://apify.com/skython/newfront-exhibitor-list-scraper)
+
+- [Goeshow Exhibitor List Scraper](https://apify.com/skython/goeshow-exhibitor-list-scraper)
+
+- [EasyFairs Exhibitor List Scraper](https://apify.com/skython/easyfairs-exhibitor-list-scraper)
+
+- [IEG Expo Exhibitor List Scraper](https://apify.com/skython/ieg-expo-exhibitor-list-scraper)
+
+- [The Smarter E Exhibitor List Scraper](https://apify.com/skython/the-smarter-e-exhibitor-list-scraper)
+
+- [Schall Messen Exhibitor List Scraper](https://apify.com/skython/schall-messen-exhibitor-list-scraper)
+
+- [Messe München Exhibitor List Scraper V2](https://apify.com/skython/messe-muenchen-exhibitor-list-scraper-2)
+
+- [Comexposium Exhibitor List Scraper](https://apify.com/skython/comexposium-exhibitor-list-scraper)
+
+- [IME Events Exhibitor List Scraper](https://apify.com/skython/ime-events-exhibitor-list-scraper)
+
+- [ANDMORE Exhibitor List Scraper](https://apify.com/skython/andmore-exhibitor-list-scraper)
+
+- [Comexposium Exhibitor List Scraper V2](https://apify.com/skython/comexposium-exhibitor-list-scraper-2)
